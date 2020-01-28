@@ -1,1 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 
+  header {
+    grid-area: header;
+    color: rgb(245, 134, 7);
+    padding: 10px;
+    font-family: 'Gill Sans';
+    font-size: 200%;
+    text-align: center;
+    background-image: url('./Off-White-Ikea-Keep-Off-Rug-Black-White.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    grid-area: main;
+    color: #2d2f77;
+    padding: 10px;
+    text-align: center;
+    height: 1500px;
+  }
+  
+  
+  
+  
+  img {
+    width: 25%;
+  }
+  
